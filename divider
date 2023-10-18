@@ -1,0 +1,8 @@
+n = int(input(" write the nember n :  "))
+divisieur=[]
+for i in range(1,n+1):
+    if n % (i) == 0:
+        divisieur.append(i)
+print(divisieur)
+print(" le nember of divisieur find is ", len(divisieur))
+ 
